@@ -1,0 +1,97 @@
+antecedent,consequent,closed_rule,support,confidence,lift
+Party=OTHER,Share=Share_Negligible_0_5 & Winner=No,Party=OTHER => Share=Share_Negligible_0_5 & Winner=No,0.1911,0.7744,2.0913
+Contest=Regular & Party=OTHER,Share=Share_Negligible_0_5 & Winner=No,Contest=Regular & Party=OTHER => Share=Share_Negligible_0_5 & Winner=No,0.1878,0.774,2.0901
+Party=OTHER,Contest=Regular & Share=Share_Negligible_0_5 & Winner=No,Party=OTHER => Contest=Regular & Share=Share_Negligible_0_5 & Winner=No,0.1878,0.7611,2.0866
+Party=OTHER,Winner=No,Party=OTHER => Winner=No,0.2449,0.9925,1.3932
+Contest=Regular & Party=OTHER,Winner=No,Contest=Regular & Party=OTHER => Winner=No,0.2408,0.9924,1.393
+Party=OTHER,Contest=Regular & Winner=No,Party=OTHER => Contest=Regular & Winner=No,0.2408,0.9758,1.3911
+Share=Share_Competitive_35_50,Winner=No,Share=Share_Competitive_35_50 => Winner=No,0.208,0.8203,1.1515
+Contest=Regular & Share=Share_Competitive_35_50,Winner=No,Contest=Regular & Share=Share_Competitive_35_50 => Winner=No,0.2041,0.8195,1.1504
+Share=Share_Competitive_35_50,Contest=Regular & Winner=No,Share=Share_Competitive_35_50 => Contest=Regular & Winner=No,0.2041,0.8049,1.1475
+Contest=Regular & Office=US_PRESIDENT,Winner=No,Contest=Regular & Office=US_PRESIDENT => Winner=No,0.3592,0.74,1.0388
+Contest=Regular & Margin=Margin_Safe_gt15 & Office=US_PRESIDENT,Winner=No,Contest=Regular & Margin=Margin_Safe_gt15 & Office=US_PRESIDENT => Winner=No,0.1584,0.7385,1.0366
+Contest=Regular & Turnout=Turnout_High_Tertile,Winner=No,Contest=Regular & Turnout=Turnout_High_Tertile => Winner=No,0.2386,0.7268,1.0202
+Turnout=Turnout_High_Tertile,Winner=No,Turnout=Turnout_High_Tertile => Winner=No,0.2423,0.7267,1.0201
+Turnout=Turnout_High_Tertile,Contest=Regular & Winner=No,Turnout=Turnout_High_Tertile => Contest=Regular & Winner=No,0.2386,0.7155,1.0201
+Margin=Margin_Moderate_5_15,Contest=Regular & Winner=No,Margin=Margin_Moderate_5_15 => Contest=Regular & Winner=No,0.2157,0.7116,1.0144
+Contest=Regular & Margin=Margin_Moderate_5_15,Winner=No,Contest=Regular & Margin=Margin_Moderate_5_15 => Winner=No,0.2157,0.7224,1.014
+Margin=Margin_Moderate_5_15,Winner=No,Margin=Margin_Moderate_5_15 => Winner=No,0.2186,0.7211,1.0122
+Region=Northeast,Contest=Regular,Region=Northeast => Contest=Regular,0.1804,0.9954,1.0115
+Era=Era1_1976_1988,Contest=Regular,Era=Era1_1976_1988 => Contest=Regular,0.3,0.9932,1.0092
+Era=Era1_1976_1988 & Winner=No,Contest=Regular,Era=Era1_1976_1988 & Winner=No => Contest=Regular,0.2107,0.9932,1.0092
+Contest=Regular & Region=Midwest,Winner=No,Contest=Regular & Region=Midwest => Winner=No,0.1713,0.7189,1.0091
+Region=Midwest,Winner=No,Region=Midwest => Winner=No,0.1742,0.7185,1.0087
+Era=Era2_1990_2004,Contest=Regular & Winner=No,Era=Era2_1990_2004 => Contest=Regular & Winner=No,0.2454,0.7071,1.008
+Region=Midwest,Contest=Regular & Winner=No,Region=Midwest => Contest=Regular & Winner=No,0.1713,0.7066,1.0074
+Contest=Regular & Era=Era2_1990_2004,Winner=No,Contest=Regular & Era=Era2_1990_2004 => Winner=No,0.2454,0.7173,1.0069
+Contest=Regular & Era=Era3_2005_2021,Winner=No,Contest=Regular & Era=Era3_2005_2021 => Winner=No,0.2454,0.7173,1.0069
+Era=Era3_2005_2021,Winner=No,Era=Era3_2005_2021 => Winner=No,0.2515,0.7168,1.0062
+Era=Era2_1990_2004,Winner=No,Era=Era2_1990_2004 => Winner=No,0.2487,0.7166,1.0059
+Margin=Margin_Safe_gt15 & Turnout=Turnout_Low_Tertile,Contest=Regular,Margin=Margin_Safe_gt15 & Turnout=Turnout_Low_Tertile => Contest=Regular,0.2124,0.9894,1.0054
+Region=West,Contest=Regular & Winner=No,Region=West => Contest=Regular & Winner=No,0.1831,0.7048,1.0047
+Region=West,Winner=No,Region=West => Winner=No,0.1858,0.7151,1.0038
+Contest=Regular & Region=West,Winner=No,Contest=Regular & Region=West => Winner=No,0.1831,0.715,1.0037
+Party=LIBERTARIAN & Winner=No,Contest=Regular,Party=LIBERTARIAN & Winner=No => Contest=Regular,0.1819,0.9877,1.0036
+Party=LIBERTARIAN & Share=Share_Negligible_0_5 & Winner=No,Contest=Regular,Party=LIBERTARIAN & Share=Share_Negligible_0_5 & Winner=No => Contest=Regular,0.1765,0.9873,1.0032
+Turnout=Turnout_Low_Tertile,Contest=Regular,Turnout=Turnout_Low_Tertile => Contest=Regular,0.3295,0.987,1.003
+Margin=Margin_Moderate_5_15 & Winner=No,Contest=Regular,Margin=Margin_Moderate_5_15 & Winner=No => Contest=Regular,0.2157,0.9868,1.0027
+Era=Era2_1990_2004 & Winner=No,Contest=Regular,Era=Era2_1990_2004 & Winner=No => Contest=Regular,0.2454,0.9867,1.0027
+Turnout=Turnout_Low_Tertile & Winner=No,Contest=Regular,Turnout=Turnout_Low_Tertile & Winner=No => Contest=Regular,0.2303,0.9867,1.0027
+Era=Era2_1990_2004,Contest=Regular,Era=Era2_1990_2004 => Contest=Regular,0.3421,0.9857,1.0016
+Region=West,Contest=Regular,Region=West => Contest=Regular,0.2561,0.9857,1.0016
+Region=West & Winner=No,Contest=Regular,Region=West & Winner=No => Contest=Regular,0.1831,0.9856,1.0015
+Margin=Margin_Safe_gt15 & Share=Share_Negligible_0_5 & Winner=No,Contest=Regular,Margin=Margin_Safe_gt15 & Share=Share_Negligible_0_5 & Winner=No => Contest=Regular,0.1816,0.9855,1.0014
+Share=Share_Negligible_0_5 & Winner=No,Contest=Regular,Share=Share_Negligible_0_5 & Winner=No => Contest=Regular,0.3647,0.985,1.0009
+Margin=Margin_Moderate_5_15,Contest=Regular,Margin=Margin_Moderate_5_15 => Contest=Regular,0.2986,0.985,1.0009
+Margin=Margin_Safe_gt15 & Winner=No,Contest=Regular,Margin=Margin_Safe_gt15 & Winner=No => Contest=Regular,0.3501,0.9849,1.0008
+Margin=Margin_Safe_gt15,Contest=Regular,Margin=Margin_Safe_gt15 => Contest=Regular,0.4963,0.9849,1.0007
+Turnout=Turnout_High_Tertile & Winner=No,Contest=Regular,Turnout=Turnout_High_Tertile & Winner=No => Contest=Regular,0.2386,0.9847,1.0006
+Winner=No,Contest=Regular,Winner=No => Contest=Regular,0.7014,0.9847,1.0005
+Contest=Regular,Winner=No,Contest=Regular => Winner=No,0.7014,0.7128,1.0005
+Turnout=Turnout_High_Tertile,Contest=Regular,Turnout=Turnout_High_Tertile => Contest=Regular,0.3282,0.9845,1.0004
+Contest=Regular & Turnout=Turnout_Mid_Tertile,Winner=No,Contest=Regular & Turnout=Turnout_Mid_Tertile => Winner=No,0.2326,0.7126,1.0003
+Era=Era2_1990_2004 & Margin=Margin_Safe_gt15,Contest=Regular,Era=Era2_1990_2004 & Margin=Margin_Safe_gt15 => Contest=Regular,0.1542,0.9842,1.0001
+Region=Midwest & Winner=No,Contest=Regular,Region=Midwest & Winner=No => Contest=Regular,0.1713,0.9834,0.9993
+Party=REPUBLICAN,Contest=Regular,Party=REPUBLICAN => Contest=Regular,0.2802,0.9834,0.9992
+Party=DEMOCRAT,Contest=Regular,Party=DEMOCRAT => Contest=Regular,0.2794,0.9833,0.9992
+Party=OTHER,Contest=Regular,Party=OTHER => Contest=Regular,0.2427,0.9833,0.9992
+Party=OTHER & Winner=No,Contest=Regular,Party=OTHER & Winner=No => Contest=Regular,0.2408,0.9832,0.999
+Region=Midwest,Contest=Regular,Region=Midwest => Contest=Regular,0.2384,0.983,0.9989
+Winner=Yes,Contest=Regular,Winner=Yes => Contest=Regular,0.2827,0.9828,0.9987
+Party=OTHER & Share=Share_Negligible_0_5 & Winner=No,Contest=Regular,Party=OTHER & Share=Share_Negligible_0_5 & Winner=No => Contest=Regular,0.1878,0.9827,0.9986
+Turnout=Turnout_Mid_Tertile,Winner=No,Turnout=Turnout_Mid_Tertile => Winner=No,0.2367,0.7113,0.9985
+Turnout=Turnout_Mid_Tertile & Winner=No,Contest=Regular,Turnout=Turnout_Mid_Tertile & Winner=No => Contest=Regular,0.2326,0.9826,0.9984
+Party=REPUBLICAN & Winner=Yes,Contest=Regular,Party=REPUBLICAN & Winner=Yes => Contest=Regular,0.1505,0.9825,0.9984
+Share=Share_Competitive_35_50,Contest=Regular,Share=Share_Competitive_35_50 => Contest=Regular,0.2491,0.9821,0.998
+Share=Share_Majority_50_100 & Winner=Yes,Contest=Regular,Share=Share_Majority_50_100 & Winner=Yes => Contest=Regular,0.2377,0.9821,0.998
+Share=Share_Competitive_35_50 & Winner=No,Contest=Regular,Share=Share_Competitive_35_50 & Winner=No => Contest=Regular,0.2041,0.9812,0.997
+Turnout=Turnout_Mid_Tertile,Contest=Regular,Turnout=Turnout_Mid_Tertile => Contest=Regular,0.3264,0.9808,0.9966
+Margin=Margin_Close_lt5,Contest=Regular,Margin=Margin_Close_lt5 => Contest=Regular,0.1893,0.9808,0.9966
+Margin=Margin_Safe_gt15 & Turnout=Turnout_Mid_Tertile,Contest=Regular,Margin=Margin_Safe_gt15 & Turnout=Turnout_Mid_Tertile => Contest=Regular,0.16,0.9798,0.9956
+Region=South & Winner=No,Contest=Regular,Region=South & Winner=No => Contest=Regular,0.2175,0.9787,0.9945
+Era=Era3_2005_2021 & Margin=Margin_Safe_gt15,Contest=Regular,Era=Era3_2005_2021 & Margin=Margin_Safe_gt15 => Contest=Regular,0.1979,0.9786,0.9944
+Margin=Margin_Safe_gt15 & Region=South,Contest=Regular,Margin=Margin_Safe_gt15 & Region=South => Contest=Regular,0.1598,0.9773,0.9931
+Region=South,Contest=Regular,Region=South => Contest=Regular,0.3093,0.9772,0.993
+Region=South & Turnout=Turnout_Mid_Tertile,Contest=Regular,Region=South & Turnout=Turnout_Mid_Tertile => Contest=Regular,0.1522,0.9762,0.9919
+Era=Era3_2005_2021 & Winner=No,Contest=Regular,Era=Era3_2005_2021 & Winner=No => Contest=Regular,0.2454,0.9754,0.9911
+Office=US_SENATE & Turnout=Turnout_Low_Tertile,Contest=Regular,Office=US_SENATE & Turnout=Turnout_Low_Tertile => Contest=Regular,0.1676,0.9748,0.9905
+Era=Era3_2005_2021,Contest=Regular,Era=Era3_2005_2021 => Contest=Regular,0.3421,0.9747,0.9905
+Contest=Regular & Margin=Margin_Safe_gt15,Winner=No,Contest=Regular & Margin=Margin_Safe_gt15 => Winner=No,0.3501,0.7054,0.9903
+Margin=Margin_Safe_gt15,Winner=No,Margin=Margin_Safe_gt15 => Winner=No,0.3555,0.7054,0.9902
+Margin=Margin_Safe_gt15 & Office=US_SENATE,Contest=Regular,Margin=Margin_Safe_gt15 & Office=US_SENATE => Contest=Regular,0.2819,0.9736,0.9894
+Margin=Margin_Safe_gt15 & Office=US_SENATE & Winner=No,Contest=Regular,Margin=Margin_Safe_gt15 & Office=US_SENATE & Winner=No => Contest=Regular,0.1918,0.9728,0.9885
+Era=Era2_1990_2004 & Office=US_SENATE,Contest=Regular,Era=Era2_1990_2004 & Office=US_SENATE => Contest=Regular,0.1771,0.9728,0.9885
+Contest=Regular & Region=South,Winner=No,Contest=Regular & Region=South => Winner=No,0.2175,0.7033,0.9873
+Era=Era1_1976_1988,Winner=No,Era=Era1_1976_1988 => Winner=No,0.2122,0.7024,0.986
+Contest=Regular & Era=Era1_1976_1988,Winner=No,Contest=Regular & Era=Era1_1976_1988 => Winner=No,0.2107,0.7024,0.986
+Office=US_SENATE & Party=REPUBLICAN,Contest=Regular,Office=US_SENATE & Party=REPUBLICAN => Contest=Regular,0.154,0.9701,0.9858
+Region=South,Winner=No,Region=South => Winner=No,0.2223,0.7023,0.9858
+Office=US_SENATE & Party=DEMOCRAT,Contest=Regular,Office=US_SENATE & Party=DEMOCRAT => Contest=Regular,0.1532,0.97,0.9856
+Office=US_SENATE & Winner=Yes,Contest=Regular,Office=US_SENATE & Winner=Yes => Contest=Regular,0.1565,0.9693,0.985
+Office=US_SENATE,Contest=Regular,Office=US_SENATE => Contest=Regular,0.4988,0.9692,0.9848
+Office=US_SENATE & Winner=No,Contest=Regular,Office=US_SENATE & Winner=No => Contest=Regular,0.3423,0.9691,0.9847
+Office=US_SENATE & Turnout=Turnout_High_Tertile,Contest=Regular,Office=US_SENATE & Turnout=Turnout_High_Tertile => Contest=Regular,0.1592,0.9686,0.9843
+Office=US_SENATE & Share=Share_Negligible_0_5 & Winner=No,Contest=Regular,Office=US_SENATE & Share=Share_Negligible_0_5 & Winner=No => Contest=Regular,0.1691,0.9681,0.9837
+Office=US_SENATE & Turnout=Turnout_Mid_Tertile,Contest=Regular,Office=US_SENATE & Turnout=Turnout_Mid_Tertile => Contest=Regular,0.172,0.9642,0.9797
+Office=US_SENATE & Region=South,Contest=Regular,Office=US_SENATE & Region=South => Contest=Regular,0.1507,0.9543,0.9697
+Era=Era3_2005_2021 & Office=US_SENATE,Contest=Regular,Era=Era3_2005_2021 & Office=US_SENATE => Contest=Regular,0.1788,0.9527,0.9681

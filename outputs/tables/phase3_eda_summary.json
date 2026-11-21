@@ -1,0 +1,104 @@
+{
+  "generated_plots_count": 11,
+  "plots": [
+    "plot01_pie_party_share.png",
+    "plot02_exploded_pie_parties.png",
+    "plot03_bar_votes_by_year.png",
+    "plot04_hbar_top_states.png",
+    "plot05_histogram_vote_share.png",
+    "plot06_boxplot_share_by_party.png",
+    "plot07_scatter_party_vs_total_votes.png",
+    "plot08_line_major_party_trend.png",
+    "plot09_dotplot_state_margin.png",
+    "plot10_stem_and_leaf_pres_turnout.png",
+    "plot11_heatmap_region_party.png"
+  ],
+  "party_summary": [
+    {
+      "party_simplified": "DEMOCRAT",
+      "contest_party_rows": 1370,
+      "total_party_votes": 1380041847,
+      "mean_share_pct": 48.25,
+      "median_share_pct": 47.27,
+      "wins": 643,
+      "vote_share_of_all_votes_pct": 49.17,
+      "sector_angle_deg": 177.0
+    },
+    {
+      "party_simplified": "REPUBLICAN",
+      "contest_party_rows": 1370,
+      "total_party_votes": 1301171797,
+      "mean_share_pct": 49.23,
+      "median_share_pct": 49.12,
+      "wins": 734,
+      "vote_share_of_all_votes_pct": 46.36,
+      "sector_angle_deg": 166.88
+    },
+    {
+      "party_simplified": "OTHER",
+      "contest_party_rows": 1187,
+      "total_party_votes": 100448346,
+      "mean_share_pct": 4.29,
+      "median_share_pct": 1.64,
+      "wins": 9,
+      "vote_share_of_all_votes_pct": 3.58,
+      "sector_angle_deg": 12.88
+    },
+    {
+      "party_simplified": "LIBERTARIAN",
+      "contest_party_rows": 889,
+      "total_party_votes": 25220277,
+      "mean_share_pct": 1.4,
+      "median_share_pct": 0.84,
+      "wins": 0,
+      "vote_share_of_all_votes_pct": 0.9,
+      "sector_angle_deg": 3.23
+    }
+  ],
+  "office_summary": [
+    {
+      "office": "US PRESIDENT",
+      "rows": 2354,
+      "total_votes": 1337147851,
+      "mean_margin_pct": 15.76,
+      "close_races_lt5pct": 499
+    },
+    {
+      "office": "US SENATE",
+      "rows": 2462,
+      "total_votes": 1469734416,
+      "mean_margin_pct": 21.43,
+      "close_races_lt5pct": 430
+    }
+  ],
+  "region_summary": [
+    {
+      "us_region": "South",
+      "rows": 1522,
+      "total_votes": 937230031,
+      "mean_share_pct": 30.27,
+      "mean_margin_pct": 19.75
+    },
+    {
+      "us_region": "Midwest",
+      "rows": 1166,
+      "total_votes": 718649800,
+      "mean_share_pct": 28.39,
+      "mean_margin_pct": 16.02
+    },
+    {
+      "us_region": "West",
+      "rows": 1253,
+      "total_votes": 594896151,
+      "mean_share_pct": 28.65,
+      "mean_margin_pct": 20.28
+    },
+    {
+      "us_region": "Northeast",
+      "rows": 875,
+      "total_votes": 556106285,
+      "mean_share_pct": 28.34,
+      "mean_margin_pct": 17.97
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+scale_factor,rows,python_fpm_sec,python_ml_sec,python_total_sec,pyspark_fpm_sec,pyspark_ml_sec,pyspark_total_sec,relative_speedup_py_over_spark,pyspark_freq_itemsets,pyspark_rules,pyspark_ml_acc,pyspark_ml_auc
+1x,4816,0.2873,0.2361,0.5234,17.6223,24.4741,42.0964,0.0124,82,27,0.8617,0.9416
+5x,24080,3.3814,0.8877,4.2691,6.9505,19.3455,26.2961,0.1623,82,27,0.8985,0.9642
+10x,48160,5.4181,1.2395,6.6576,9.3182,21.7678,31.086,0.2142,82,27,0.8922,0.9581

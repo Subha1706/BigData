@@ -1,0 +1,2 @@
+spark_version,master,cores,driver_memory,shuffle_partitions,rdd_partitions,jvm_startup_s,python,runs,warmup_runs
+4.3.0,local[2],2,2g,4,4,9.12,3.12.10,3,1

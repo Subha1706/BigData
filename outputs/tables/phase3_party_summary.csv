@@ -1,0 +1,5 @@
+party_simplified,contest_party_rows,total_party_votes,mean_share_pct,median_share_pct,wins,vote_share_of_all_votes_pct,sector_angle_deg
+DEMOCRAT,1370,1380041847,48.25,47.27,643,49.17,177.0
+REPUBLICAN,1370,1301171797,49.23,49.12,734,46.36,166.88
+OTHER,1187,100448346,4.29,1.64,9,3.58,12.88
+LIBERTARIAN,889,25220277,1.4,0.84,0,0.9,3.23

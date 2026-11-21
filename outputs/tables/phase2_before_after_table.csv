@@ -1,0 +1,7 @@
+Stage,Rows,Cols,Total_Nulls
+Raw Presidential CSV,4287,15,5033
+Raw Senate CSV,3629,19,1022
+After Invalid Row Removal,7916,14,0
+Cleaned General Elections (EDA),7899,18,0
+Contest-Party Modeling Table,4850,37,0
+Transactional Table (DIC/CLOSET),4850,2,0

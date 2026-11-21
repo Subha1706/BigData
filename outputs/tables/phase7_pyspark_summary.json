@@ -1,0 +1,63 @@
+{
+  "spark_version": "4.3.0",
+  "master": "local[2]",
+  "default_parallelism_cores": 2,
+  "spark_jvm_startup_sec": 12.9059,
+  "validation_1x": {
+    "python_freq_itemsets": 82,
+    "pyspark_freq_itemsets": 82,
+    "python_single_consequent_rules": 27,
+    "pyspark_single_consequent_rules": 27,
+    "python_rf_acc": 0.861,
+    "pyspark_rf_acc": 0.8617,
+    "python_rf_auc": 0.9394,
+    "pyspark_rf_auc": 0.9416
+  },
+  "benchmarks": [
+    {
+      "scale_factor": "1x",
+      "rows": 4816,
+      "python_fpm_sec": 0.2873,
+      "python_ml_sec": 0.2361,
+      "python_total_sec": 0.5234,
+      "pyspark_fpm_sec": 17.6223,
+      "pyspark_ml_sec": 24.4741,
+      "pyspark_total_sec": 42.0964,
+      "relative_speedup_py_over_spark": 0.0124,
+      "pyspark_freq_itemsets": 82,
+      "pyspark_rules": 27,
+      "pyspark_ml_acc": 0.8617,
+      "pyspark_ml_auc": 0.9416
+    },
+    {
+      "scale_factor": "5x",
+      "rows": 24080,
+      "python_fpm_sec": 3.3814,
+      "python_ml_sec": 0.8877,
+      "python_total_sec": 4.2691,
+      "pyspark_fpm_sec": 6.9505,
+      "pyspark_ml_sec": 19.3455,
+      "pyspark_total_sec": 26.2961,
+      "relative_speedup_py_over_spark": 0.1623,
+      "pyspark_freq_itemsets": 82,
+      "pyspark_rules": 27,
+      "pyspark_ml_acc": 0.8985,
+      "pyspark_ml_auc": 0.9642
+    },
+    {
+      "scale_factor": "10x",
+      "rows": 48160,
+      "python_fpm_sec": 5.4181,
+      "python_ml_sec": 1.2395,
+      "python_total_sec": 6.6576,
+      "pyspark_fpm_sec": 9.3182,
+      "pyspark_ml_sec": 21.7678,
+      "pyspark_total_sec": 31.086,
+      "relative_speedup_py_over_spark": 0.2142,
+      "pyspark_freq_itemsets": 82,
+      "pyspark_rules": 27,
+      "pyspark_ml_acc": 0.8922,
+      "pyspark_ml_auc": 0.9581
+    }
+  ]
+}

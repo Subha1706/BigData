@@ -1,0 +1,156 @@
+itemset,size_k,support_count,support
+Contest=Regular,1,4773,0.9841
+Winner=No,1,3455,0.7124
+Office=US_SENATE,1,2496,0.5146
+Margin=Margin_Safe_gt15,1,2444,0.5039
+Office=US_PRESIDENT,1,2354,0.4854
+Share=Share_Negligible_0_5,1,1796,0.3703
+Era=Era3_2005_2021,1,1702,0.3509
+Era=Era2_1990_2004,1,1683,0.347
+Turnout=Turnout_Low_Tertile,1,1619,0.3338
+Turnout=Turnout_High_Tertile,1,1617,0.3334
+Turnout=Turnout_Mid_Tertile,1,1614,0.3328
+Region=South,1,1535,0.3165
+Margin=Margin_Moderate_5_15,1,1470,0.3031
+Era=Era1_1976_1988,1,1465,0.3021
+Winner=Yes,1,1395,0.2876
+Party=REPUBLICAN,1,1382,0.2849
+Party=DEMOCRAT,1,1378,0.2841
+Region=West,1,1260,0.2598
+Share=Share_Competitive_35_50,1,1230,0.2536
+Party=OTHER,1,1197,0.2468
+Region=Midwest,1,1176,0.2425
+Share=Share_Majority_50_100,1,1174,0.2421
+Margin=Margin_Close_lt5,1,936,0.193
+Party=LIBERTARIAN,1,893,0.1841
+Region=Northeast,1,879,0.1812
+Contest=Regular & Winner=No,2,3402,0.7014
+Contest=Regular & Office=US_SENATE,2,2419,0.4988
+Contest=Regular & Margin=Margin_Safe_gt15,2,2407,0.4963
+Contest=Regular & Office=US_PRESIDENT,2,2354,0.4854
+Share=Share_Negligible_0_5 & Winner=No,2,1796,0.3703
+Contest=Regular & Share=Share_Negligible_0_5,2,1769,0.3647
+Office=US_PRESIDENT & Winner=No,2,1742,0.3592
+Margin=Margin_Safe_gt15 & Winner=No,2,1724,0.3555
+Office=US_SENATE & Winner=No,2,1713,0.3532
+Contest=Regular & Era=Era2_1990_2004,2,1659,0.3421
+Contest=Regular & Era=Era3_2005_2021,2,1659,0.3421
+Contest=Regular & Turnout=Turnout_Low_Tertile,2,1598,0.3295
+Contest=Regular & Turnout=Turnout_High_Tertile,2,1592,0.3282
+Contest=Regular & Turnout=Turnout_Mid_Tertile,2,1583,0.3264
+Contest=Regular & Region=South,2,1500,0.3093
+Contest=Regular & Era=Era1_1976_1988,2,1455,0.3
+Contest=Regular & Margin=Margin_Moderate_5_15,2,1448,0.2986
+Margin=Margin_Safe_gt15 & Office=US_SENATE,2,1404,0.2895
+Contest=Regular & Winner=Yes,2,1371,0.2827
+Contest=Regular & Party=REPUBLICAN,2,1359,0.2802
+Contest=Regular & Party=DEMOCRAT,2,1355,0.2794
+Contest=Regular & Region=West,2,1242,0.2561
+Era=Era3_2005_2021 & Winner=No,2,1220,0.2515
+Contest=Regular & Share=Share_Competitive_35_50,2,1208,0.2491
+Era=Era2_1990_2004 & Winner=No,2,1206,0.2487
+Party=OTHER & Winner=No,2,1188,0.2449
+Contest=Regular & Party=OTHER,2,1177,0.2427
+Turnout=Turnout_High_Tertile & Winner=No,2,1175,0.2423
+Share=Share_Majority_50_100 & Winner=Yes,2,1174,0.2421
+Contest=Regular & Region=Midwest,2,1156,0.2384
+Contest=Regular & Share=Share_Majority_50_100,2,1153,0.2377
+Turnout=Turnout_Mid_Tertile & Winner=No,2,1148,0.2367
+Turnout=Turnout_Low_Tertile & Winner=No,2,1132,0.2334
+Region=South & Winner=No,2,1078,0.2223
+Margin=Margin_Moderate_5_15 & Winner=No,2,1060,0.2186
+Margin=Margin_Safe_gt15 & Turnout=Turnout_Low_Tertile,2,1041,0.2146
+Margin=Margin_Safe_gt15 & Office=US_PRESIDENT,2,1040,0.2144
+Era=Era1_1976_1988 & Winner=No,2,1029,0.2122
+Share=Share_Competitive_35_50 & Winner=No,2,1009,0.208
+Era=Era3_2005_2021 & Margin=Margin_Safe_gt15,2,981,0.2023
+Office=US_PRESIDENT & Share=Share_Negligible_0_5,2,949,0.1957
+Party=OTHER & Share=Share_Negligible_0_5,2,927,0.1911
+Contest=Regular & Margin=Margin_Close_lt5,2,918,0.1893
+Era=Era3_2005_2021 & Office=US_SENATE,2,910,0.1876
+Region=West & Winner=No,2,901,0.1858
+Margin=Margin_Safe_gt15 & Share=Share_Negligible_0_5,2,894,0.1843
+Party=LIBERTARIAN & Winner=No,2,893,0.1841
+Era=Era2_1990_2004 & Office=US_SENATE,2,883,0.1821
+Contest=Regular & Party=LIBERTARIAN,2,882,0.1819
+Contest=Regular & Region=Northeast,2,875,0.1804
+Party=LIBERTARIAN & Share=Share_Negligible_0_5,2,867,0.1788
+Office=US_SENATE & Turnout=Turnout_Mid_Tertile,2,865,0.1784
+Office=US_SENATE & Share=Share_Negligible_0_5,2,847,0.1746
+Region=Midwest & Winner=No,2,845,0.1742
+Office=US_SENATE & Turnout=Turnout_Low_Tertile,2,834,0.172
+Office=US_PRESIDENT & Turnout=Turnout_High_Tertile,2,820,0.1691
+Margin=Margin_Moderate_5_15 & Office=US_PRESIDENT,2,815,0.168
+Era=Era2_1990_2004 & Office=US_PRESIDENT,2,800,0.1649
+Office=US_SENATE & Turnout=Turnout_High_Tertile,2,797,0.1643
+Margin=Margin_Safe_gt15 & Region=South,2,793,0.1635
+Era=Era3_2005_2021 & Office=US_PRESIDENT,2,792,0.1633
+Margin=Margin_Safe_gt15 & Turnout=Turnout_Mid_Tertile,2,792,0.1633
+Office=US_PRESIDENT & Turnout=Turnout_Low_Tertile,2,785,0.1619
+Office=US_SENATE & Winner=Yes,2,783,0.1614
+Office=US_SENATE & Party=REPUBLICAN,2,770,0.1588
+Office=US_PRESIDENT & Region=South,2,769,0.1586
+Office=US_SENATE & Party=DEMOCRAT,2,766,0.1579
+Office=US_SENATE & Region=South,2,766,0.1579
+Era=Era1_1976_1988 & Office=US_PRESIDENT,2,762,0.1571
+Era=Era2_1990_2004 & Margin=Margin_Safe_gt15,2,760,0.1567
+Region=South & Turnout=Turnout_Mid_Tertile,2,756,0.1559
+Office=US_PRESIDENT & Turnout=Turnout_Mid_Tertile,2,749,0.1544
+Party=REPUBLICAN & Winner=Yes,2,743,0.1532
+Party=DEMOCRAT & Winner=No,2,735,0.1515
+Contest=Regular & Share=Share_Negligible_0_5 & Winner=No,3,1769,0.3647
+Contest=Regular & Office=US_PRESIDENT & Winner=No,3,1742,0.3592
+Contest=Regular & Margin=Margin_Safe_gt15 & Winner=No,3,1698,0.3501
+Contest=Regular & Office=US_SENATE & Winner=No,3,1660,0.3423
+Contest=Regular & Margin=Margin_Safe_gt15 & Office=US_SENATE,3,1367,0.2819
+Contest=Regular & Era=Era2_1990_2004 & Winner=No,3,1190,0.2454
+Contest=Regular & Era=Era3_2005_2021 & Winner=No,3,1190,0.2454
+Contest=Regular & Party=OTHER & Winner=No,3,1168,0.2408
+Contest=Regular & Turnout=Turnout_High_Tertile & Winner=No,3,1157,0.2386
+Contest=Regular & Share=Share_Majority_50_100 & Winner=Yes,3,1153,0.2377
+Contest=Regular & Turnout=Turnout_Mid_Tertile & Winner=No,3,1128,0.2326
+Contest=Regular & Turnout=Turnout_Low_Tertile & Winner=No,3,1117,0.2303
+Contest=Regular & Region=South & Winner=No,3,1055,0.2175
+Contest=Regular & Margin=Margin_Moderate_5_15 & Winner=No,3,1046,0.2157
+Contest=Regular & Margin=Margin_Safe_gt15 & Office=US_PRESIDENT,3,1040,0.2144
+Contest=Regular & Margin=Margin_Safe_gt15 & Turnout=Turnout_Low_Tertile,3,1030,0.2124
+Contest=Regular & Era=Era1_1976_1988 & Winner=No,3,1022,0.2107
+Contest=Regular & Share=Share_Competitive_35_50 & Winner=No,3,990,0.2041
+Contest=Regular & Era=Era3_2005_2021 & Margin=Margin_Safe_gt15,3,960,0.1979
+Margin=Margin_Safe_gt15 & Office=US_SENATE & Winner=No,3,956,0.1971
+Contest=Regular & Office=US_PRESIDENT & Share=Share_Negligible_0_5,3,949,0.1957
+Office=US_PRESIDENT & Share=Share_Negligible_0_5 & Winner=No,3,949,0.1957
+Party=OTHER & Share=Share_Negligible_0_5 & Winner=No,3,927,0.1911
+Contest=Regular & Party=OTHER & Share=Share_Negligible_0_5,3,911,0.1878
+Margin=Margin_Safe_gt15 & Share=Share_Negligible_0_5 & Winner=No,3,894,0.1843
+Contest=Regular & Region=West & Winner=No,3,888,0.1831
+Contest=Regular & Party=LIBERTARIAN & Winner=No,3,882,0.1819
+Contest=Regular & Margin=Margin_Safe_gt15 & Share=Share_Negligible_0_5,3,881,0.1816
+Contest=Regular & Era=Era3_2005_2021 & Office=US_SENATE,3,867,0.1788
+Party=LIBERTARIAN & Share=Share_Negligible_0_5 & Winner=No,3,867,0.1788
+Contest=Regular & Era=Era2_1990_2004 & Office=US_SENATE,3,859,0.1771
+Contest=Regular & Party=LIBERTARIAN & Share=Share_Negligible_0_5,3,856,0.1765
+Office=US_SENATE & Share=Share_Negligible_0_5 & Winner=No,3,847,0.1746
+Contest=Regular & Office=US_SENATE & Turnout=Turnout_Mid_Tertile,3,834,0.172
+Contest=Regular & Region=Midwest & Winner=No,3,831,0.1713
+Contest=Regular & Office=US_PRESIDENT & Turnout=Turnout_High_Tertile,3,820,0.1691
+Contest=Regular & Office=US_SENATE & Share=Share_Negligible_0_5,3,820,0.1691
+Contest=Regular & Margin=Margin_Moderate_5_15 & Office=US_PRESIDENT,3,815,0.168
+Contest=Regular & Office=US_SENATE & Turnout=Turnout_Low_Tertile,3,813,0.1676
+Contest=Regular & Era=Era2_1990_2004 & Office=US_PRESIDENT,3,800,0.1649
+Contest=Regular & Era=Era3_2005_2021 & Office=US_PRESIDENT,3,792,0.1633
+Contest=Regular & Office=US_PRESIDENT & Turnout=Turnout_Low_Tertile,3,785,0.1619
+Contest=Regular & Margin=Margin_Safe_gt15 & Turnout=Turnout_Mid_Tertile,3,776,0.16
+Contest=Regular & Margin=Margin_Safe_gt15 & Region=South,3,775,0.1598
+Contest=Regular & Office=US_SENATE & Turnout=Turnout_High_Tertile,3,772,0.1592
+Contest=Regular & Office=US_PRESIDENT & Region=South,3,769,0.1586
+Margin=Margin_Safe_gt15 & Office=US_PRESIDENT & Winner=No,3,768,0.1584
+Contest=Regular & Era=Era1_1976_1988 & Office=US_PRESIDENT,3,762,0.1571
+Contest=Regular & Office=US_SENATE & Winner=Yes,3,759,0.1565
+Contest=Regular & Office=US_PRESIDENT & Turnout=Turnout_Mid_Tertile,3,749,0.1544
+Contest=Regular & Era=Era2_1990_2004 & Margin=Margin_Safe_gt15,3,748,0.1542
+Contest=Regular & Office=US_SENATE & Party=REPUBLICAN,3,747,0.154
+Contest=Regular & Office=US_SENATE & Party=DEMOCRAT,3,743,0.1532
+Contest=Regular & Region=South & Turnout=Turnout_Mid_Tertile,3,738,0.1522
+Contest=Regular & Office=US_SENATE & Region=South,3,731,0.1507
+Contest=Regular & Party=REPUBLICAN & Winner=Yes,3,730,0.1505

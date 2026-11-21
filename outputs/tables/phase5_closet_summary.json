@@ -1,0 +1,12 @@
+{
+  "runtime_sec": 0.4489,
+  "n_transactions": 4850,
+  "min_support": 0.15,
+  "min_count": 728,
+  "min_confidence": 0.7,
+  "frequent_itemsets_dic_count": 155,
+  "closed_frequent_itemsets_closet_count": 133,
+  "compression_ratio_freq_to_cfi": 1.17,
+  "closed_rules_count": 96,
+  "closedness_verified": true
+}

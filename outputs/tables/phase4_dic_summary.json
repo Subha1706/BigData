@@ -1,0 +1,11 @@
+{
+  "runtime_sec": 0.2301,
+  "n_transactions": 4850,
+  "min_support": 0.15,
+  "min_count": 728,
+  "min_confidence": 0.7,
+  "interval_size_M": 800,
+  "total_steps": 21,
+  "frequent_itemsets_count": 155,
+  "rules_count": 136
+}

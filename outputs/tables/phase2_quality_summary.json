@@ -1,0 +1,76 @@
+{
+  "contest_key": [
+    "office",
+    "year",
+    "state",
+    "special"
+  ],
+  "before_cleaning": {
+    "pres_rows": 4287,
+    "pres_cols": 15,
+    "pres_encoding": "utf-8",
+    "pres_nulls_total": 5033,
+    "pres_dups": 0,
+    "senate_rows": 3629,
+    "senate_cols": 19,
+    "senate_encoding": "latin1",
+    "senate_nulls_total": 1022,
+    "senate_dups": 0,
+    "combined_raw_rows": 7916
+  },
+  "after_cleaning_and_transformation": {
+    "rows_after_concat": 7916,
+    "rows_after_dedup": 7916,
+    "invalid_vote_rows_removed": 0,
+    "non_general_stage_rows_filtered": 13,
+    "cleaned_gen_rows": 7899,
+    "cleaned_gen_cols": 18,
+    "cleaned_gen_nulls_remaining": 0,
+    "low_totalvotes_rows_flagged_lt1000": 4,
+    "state_years_with_multiple_contests": 13,
+    "contests_with_inconsistent_totalvotes": 0,
+    "distinct_contests": 1395,
+    "contests_modeling_rows": 4850,
+    "contests_modeling_cols": 37,
+    "max_party_share_pct": 100.0,
+    "transactions_count": 4850
+  },
+  "outlier_investigation_iqr": {
+    "candidatevotes_all_cleaned": {
+      "Q1": 1941.75,
+      "Q3": 327890.25,
+      "IQR": 325948.5,
+      "Lower_Fence": -486981.0,
+      "Upper_Fence": 816813.0,
+      "Outlier_Count": 1146,
+      "Outlier_Pct": 14.48
+    },
+    "totalvotes_all_cleaned": {
+      "Q1": 661744.0,
+      "Q3": 2994334.0,
+      "IQR": 2332590.0,
+      "Lower_Fence": -2837141.0,
+      "Upper_Fence": 6493219.0,
+      "Outlier_Count": 482,
+      "Outlier_Pct": 6.09
+    },
+    "candidatevotes_gen": {
+      "Q1": 1949.5,
+      "Q3": 326385.0,
+      "IQR": 324435.5,
+      "Lower_Fence": -484703.75,
+      "Upper_Fence": 813038.25,
+      "Outlier_Count": 1149,
+      "Outlier_Pct": 14.55
+    },
+    "totalvotes_gen": {
+      "Q1": 661651.0,
+      "Q3": 2994334.0,
+      "IQR": 2332683.0,
+      "Lower_Fence": -2837373.5,
+      "Upper_Fence": 6493358.5,
+      "Outlier_Count": 482,
+      "Outlier_Pct": 6.1
+    }
+  }
+}

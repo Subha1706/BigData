@@ -1,0 +1,5 @@
+antecedent,consequent,support,confidence,lift,count
+Share=Share_Majority_50_100,Winner=Yes,0.2421,1.0,3.4767,1174
+Winner=Yes,Share=Share_Majority_50_100,0.2421,0.8416,3.4767,1174
+Share=Share_Negligible_0_5,Winner=No,0.3703,1.0,1.4038,1796
+Share=Share_Competitive_35_50,Winner=No,0.208,0.8203,1.1515,1009

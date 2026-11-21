@@ -1,0 +1,5 @@
+,party_share_pct,margin_pct,log_total_votes,log_party_votes
+party_share_pct,1.0,0.068,-0.048,0.783
+margin_pct,0.068,1.0,-0.318,-0.102
+log_total_votes,-0.048,-0.318,1.0,0.377
+log_party_votes,0.783,-0.102,0.377,1.0

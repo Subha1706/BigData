@@ -1,0 +1,25 @@
+{
+  "knn": {
+    "train_rows": 3880,
+    "test_rows": 970,
+    "best_k": 3,
+    "confusion_matrix": {
+      "TN": 613,
+      "FP": 78,
+      "FN": 76,
+      "TP": 203
+    },
+    "accuracy": 0.8412,
+    "precision": 0.7224,
+    "recall_sensitivity": 0.7276,
+    "specificity": 0.8871,
+    "f1_score": 0.725,
+    "roc_auc": 0.894
+  },
+  "agnes": {
+    "sample_size": 600,
+    "distance_metric": "euclidean",
+    "primary_linkage": "average",
+    "n_clusters": 4
+  }
+}
